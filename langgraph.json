@@ -1,0 +1,9 @@
+{
+  "dependencies": [
+    "."
+  ],
+  "graphs": {
+    "weather_agent": "main:agent"
+  },
+  "env": ".env"
+}
