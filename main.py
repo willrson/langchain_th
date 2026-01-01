@@ -6,6 +6,7 @@ from langchain.agents import create_agent
 load_dotenv()
 
 def get_weather(city: str) -> str:
+    """Get real weather for a given city using wttr.in"""
     try:
         url = f"http://wttr.in/{city}?format=j1"
         
